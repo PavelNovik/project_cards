@@ -1,0 +1,49 @@
+.flexContainer {
+  display: flex;
+  align-items: center;
+
+  .actionBtn {
+    padding: 6px;
+    background-color: inherit;
+    fill: var(--color-light-100);
+    transition: 0.2s;
+
+    &:hover {
+      fill: var(--color-accent-100);
+      transition: 0.2s;
+    }
+  }
+}
+
+.nameCell {
+  width: 260px;
+}
+
+.countCell {
+  width: 140px;
+}
+
+.dateCell {
+  width: 200px;
+}
+
+.btnsCell {
+  width: 117px;
+}
+
+.deckPreview {
+  width: 118px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.link {
+  color: var(--color-light-100);
+  text-decoration: none;
+  transition: 0.1s;
+
+  &:hover {
+    color: var(--color-accent-100);
+    text-decoration: underline;
+  }
+}

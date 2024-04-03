@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  background-color: var(--color-dark-700, #171717);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.userBar {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.userName {
+  border-bottom: 1px solid var(--color-light-100, #fff);
+}

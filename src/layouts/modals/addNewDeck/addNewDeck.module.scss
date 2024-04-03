@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 24px;
+
+  .namePack {
+    width: 100%;
+  }
+}
+
+.file {
+  display: none;
+}
+
+.fileActive {
+  background-color: var(--color-success-500);
+
+  &:hover {
+    background-color: var(--color-success-300);
+  }
+}

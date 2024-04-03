@@ -1,0 +1,47 @@
+.flexContainer {
+  display: flex;
+  align-items: center;
+
+  .actionBtn {
+    padding: 6px;
+    background-color: inherit;
+    fill: var(--color-light-100);
+    transition: 0.2s;
+
+    &:hover {
+      fill: var(--color-accent-100);
+      transition: 0.2s;
+    }
+  }
+}
+
+.buttonsBlock {
+  justify-content: flex-end;
+}
+
+.deckPreview {
+  width: 118px;
+  height: 48px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.questionCell {
+  width: 300px;
+}
+
+.nswerCell {
+  width: 300px;
+}
+
+.timeCell {
+  min-width: 130px;
+}
+
+.gradeCell {
+  width: 200px;
+}
+
+.overlay {
+  background-color: rgb(67 67 67 / 7%);
+}

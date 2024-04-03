@@ -1,0 +1,23 @@
+.avatar {
+  position: relative;
+
+  overflow: hidden;
+  display: inline-block;
+
+  width: 36px;
+  height: 36px;
+
+  line-height: 36px;
+
+  border-radius: 50%;
+
+  img {
+    width: inherit;
+    height: inherit;
+
+    vertical-align: middle;
+
+    object-fit: cover;
+    border-radius: inherit;
+  }
+}

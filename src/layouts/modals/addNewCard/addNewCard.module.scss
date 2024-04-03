@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 24px;
+
+  .inputLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .namePack {
+      width: 100%;
+    }
+  }
+}
+
+.inputFile {
+  display: none;
+}
+
+.fileActive {
+  background-color: var(--color-success-500);
+  transition: 0.2s;
+
+  &:hover {
+    background-color: var(--color-success-300);
+  }
+}
